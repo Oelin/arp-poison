@@ -44,14 +44,12 @@ def bind(iface):
 def start(iface, spa, tpa, tha):
   sock = bind(iface)
   i = 1
-
-  print('started\n')
-
+  
   while 1:
     sleep(0.9)
 
     send_reply(sock, self_mac(), spa, tha, tpa)
-    print(f'[+] sent frame {i}')
+    print(f'sent frame {i}')
     i += 1
 
 
