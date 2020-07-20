@@ -1,3 +1,3 @@
 ## olive
 
-An ARP poisoning script.
+A simple script to perform ARP poisoning.
