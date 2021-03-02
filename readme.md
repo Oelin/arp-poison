@@ -1,3 +1,3 @@
 ## olive
 
-A simple script to perform ARP poisoning.
+PoC for ARP poisoning over switched LANs.
